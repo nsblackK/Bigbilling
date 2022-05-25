@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="600.0" style="-fx-background-image: bg;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="192.0" layoutY="156.0" text="TOTAL AMOUNT" textFill="WHITE">
+      <ImageView fitHeight="504.0" fitWidth="600.0">
+         <image>
+            <Image url="@assets/bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="188.0" layoutY="43.0" text="TOTAL AMOUNT" textFill="WHITE">
          <font>
-            <Font size="29.0" />
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalAmount" alignment="CENTER" layoutX="231.0" layoutY="78.0" prefHeight="60.0" prefWidth="138.0" text="120" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font></Label>
+      <ImageView fitHeight="179.0" fitWidth="200.0" layoutX="200.0" layoutY="145.0">
+         <image>
+            <Image url="@assets/qr.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="240.0" layoutY="324.0" text="Pay Here" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="398.0" text="Thank You" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font size="50.0" />
          </font>
       </Label>
    </children>
