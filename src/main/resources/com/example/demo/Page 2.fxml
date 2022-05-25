@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="600.0" style="-fx-background-color: BLACK; -fx-border-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="487.0" fitWidth="600.0" layoutY="-1.0">
+         <image>
+            <Image url="@assets/bg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="148.0" fitWidth="143.0" layoutX="14.0" layoutY="44.0">
+         <image>
+            <Image url="@assets/9c004237-bc31-4249-905a-2f744a81c0ce_1.2081f3d75649df704b2f810cd2302ddc_prev_ui.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="62.0" layoutY="192.0" prefHeight="26.0" prefWidth="47.0" text="Rs. 20" textAlignment="CENTER" textFill="#eae8e8">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="135.0" fitWidth="213.0" layoutX="-21.0" layoutY="234.0">
+         <image>
+            <Image url="@assets/Hazelnut_prev_ui.png" />
+         </image>
+      </ImageView>
+      <ToggleButton layoutX="157.0" layoutY="110.0" mnemonicParsing="false" onAction="#Lays" prefHeight="18.0" prefWidth="26.0" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ImageView fitHeight="148.0" fitWidth="143.0" layoutX="211.0" layoutY="44.0">
+         <image>
+            <Image url="@assets/74b50efc-731d-4ecd-84b8-69dc767e158f_1.134121d4b1b603585bf35212d78efae0_prev_ui.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="248.0" layoutY="192.0" prefHeight="26.0" prefWidth="47.0" text="Rs. 20" textAlignment="CENTER" textFill="#eae8e8">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ToggleButton layoutX="361.0" layoutY="109.0" mnemonicParsing="false" onAction="#Lays" prefHeight="30.0" prefWidth="21.0" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <Separator layoutX="5.0" layoutY="454.0" prefHeight="0.0" prefWidth="590.0" />
+      <ToggleButton layoutX="156.0" layoutY="287.0" mnemonicParsing="false" onAction="#Coffee" prefHeight="30.0" prefWidth="30.0" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="62.0" layoutY="369.0" prefHeight="26.0" prefWidth="47.0" text="Rs. 40" textAlignment="CENTER" textFill="#eae8e8">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="148.0" fitWidth="143.0" layoutX="405.0" layoutY="44.0">
+         <image>
+            <Image url="@assets/deb6fd57-41b2-43ef-bd62-475248277947.f192eebd275a40e1e8eff36cfb164879-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ToggleButton layoutX="545.0" layoutY="110.0" mnemonicParsing="false" onAction="#Lays" prefHeight="26.0" prefWidth="30.0" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="453.0" layoutY="192.0" prefHeight="26.0" prefWidth="47.0" text="Rs. 20" textAlignment="CENTER" textFill="#eae8e8">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="135.0" fitWidth="134.0" layoutX="220.0" layoutY="234.0">
+         <image>
+            <Image url="@assets/lays_prev_ui.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="259.0" layoutY="369.0" prefHeight="26.0" prefWidth="47.0" text="Rs. 20" textAlignment="CENTER" textFill="#eae8e8">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ToggleButton layoutX="361.0" layoutY="287.0" mnemonicParsing="false" onAction="#Lays" prefHeight="26.0" prefWidth="30.0" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ImageView fitHeight="148.0" fitWidth="134.0" layoutX="410.0" layoutY="234.0">
+         <image>
+            <Image url="@assets/dukes-wafers-waffy-strawberry-flavour-75-gm-pouch-800x800-700x700_prev_ui.png" />
+         </image>
+      </ImageView>
+      <ToggleButton layoutX="545.0" layoutY="287.0" mnemonicParsing="false" onAction="#wafers" prefHeight="26.0" prefWidth="30.0" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="453.0" layoutY="369.0" prefHeight="26.0" prefWidth="47.0" text="Rs. 50" textAlignment="CENTER" textFill="#eae8e8">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="391.0" layoutY="491.0" mnemonicParsing="false" onAction="#pay" prefHeight="59.0" prefWidth="157.0" text="Proceed to pay....">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ToggleButton layoutX="157.0" layoutY="152.0" mnemonicParsing="false" onAction="#NoLays" prefHeight="18.0" prefWidth="26.0" text="~">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton layoutX="545.0" layoutY="330.0" mnemonicParsing="false" onAction="#Nowafers" prefHeight="18.0" prefWidth="26.0" text="~">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton layoutX="361.0" layoutY="330.0" mnemonicParsing="false" onAction="#NoLays" prefHeight="18.0" prefWidth="26.0" text="~">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton layoutX="156.0" layoutY="330.0" mnemonicParsing="false" onAction="#NoCoffee" prefHeight="18.0" prefWidth="26.0" text="~">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton layoutX="545.0" layoutY="152.0" mnemonicParsing="false" onAction="#NoLays" prefHeight="18.0" prefWidth="26.0" text="~">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton layoutX="361.0" layoutY="152.0" mnemonicParsing="false" onAction="#NoLays" prefHeight="18.0" prefWidth="26.0" text="~">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </ToggleButton>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="100.0" layoutY="481.0">
+         <image>
+            <Image url="@assets/cart-icon-png-white-11.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="cartCount" layoutX="132.0" layoutY="476.0" prefHeight="26.0" prefWidth="15.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

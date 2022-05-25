@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="585.0" layoutX="7.0">
+         <image>
+            <Image url="@assets/bg.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="254.0" layoutY="277.0" mnemonicParsing="false" onAction="#HUNGRY" prefHeight="43.0" prefWidth="91.0" text="HUNGRY ?" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="47.0">
+         <image>
+            <Image url="@assets/9e865f5e-75c1-404b-97c8-f3543175273a.e7a119cee380b302b865d0902293db54_prev_ui.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="89.0" layoutY="77.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
